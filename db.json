@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "pc portable",
+      "price": "5000dh",
+      "quantity": 20
+    },
+    {
+      "id": "2",
+      "name": "pc desktop",
+      "price": "2500dh",
+      "quantity": 39
+    },
+    {
+      "id": "3",
+      "name": "SMART SWATCH",
+      "price": "600dh",
+      "quantity": 200
+    },
+    {
+      "id": "4",
+      "name": "SMART PHONE",
+      "price": "4000dh",
+      "quantity": 40
+    },
+    {
+      "id": "5",
+      "name": "CABLE",
+      "price": "10dh",
+      "quantity": 400
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<h1>Products</h1>
+<form class="form-inline">
+    <div class="form-group">
+        <label for="zero">Give a id</label>
+        <input [(ngModel)]="data.id" type="text" name="id" id="zero" class="form-control" placeholder="Give a id" aria-describedby="helpId">
+    
+    </div>
+    <div class="form-group">
+        <label for="one">Give a name</label>
+        <input [(ngModel)]="data.name" type="text" name="name" id="one" class="form-control" placeholder="Give a name" aria-describedby="helpId">
+    
+    </div>
+    <div class="form-group">
+        <label for="two">Give price</label>
+        <input [(ngModel)]="data.price" type="text" name="name" id="two" class="form-control" placeholder="Give a price" aria-describedby="helpId">
+    
+    </div>
+    <div class="form-group">
+        <label for="three">Give a quantity</label>
+        <input [(ngModel)]="data.quantity" type="text" name="name" id="three" class="form-control" placeholder="Give a quatity" aria-describedby="helpId">
+    
+    </div>
+    <button (click)="postPoductNow()" type="button" class="btn btn-primary btn-block">Add</button>
+</form>
+<table class="table table-success">
+    <thead>
+        <th>id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let p of myArray">
+            <td>{{p.id}}</td>
+            <td>{{p.name}}</td>
+            <td>{{p.price}}</td>
+            <td>{{p.quantity}}</td>
+            <td>
+                <button (click)="deleteProduct(p.id)" class="btn btn-danger">delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

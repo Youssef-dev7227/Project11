@@ -1,0 +1,23 @@
+.form-group,button, table{
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+}
+table{
+    text-justify: auto;
+    align-items: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+thead{
+    align-items: center;
+}
+h1{
+    text-shadow: 1px 1px black;
+    text-align: center;
+    color: blue;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
